@@ -6,4 +6,4 @@ FROM (
   JOIN cohorts on cohorts.id = cohort_id
   GROUP BY cohorts.name
   ORDER BY total_duration
-) as total_durations;
+) as a
